@@ -5,7 +5,9 @@ defineProps({
 </script>
 
 <template>
-    <div>
-        <h1>Laravel {{ laravelVersion }}</h1>
-    </div>
+  <div class="h-screen flex justify-center items-center">
+    <h1 class="font-bold text-2xl">
+      Laravel {{ laravelVersion }}
+    </h1>
+  </div>
 </template>
